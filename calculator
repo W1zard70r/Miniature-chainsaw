@@ -1,0 +1,35 @@
+pr=str(input('введите действие: '))
+f=pr.split()
+print(f)
+r=float(f[0])
+rr=f[1]
+rrr=float(f[2])
+def plus(a,b):
+  c=a+b
+  return c
+def minus(a,b):
+  c=a-b
+  return c 
+def multiplai(a,b):
+  c=a*b
+  return c 
+def delenie(a,b):
+  c=a/b
+  return c
+def celoedelenie(a,b):
+  c=a//b
+  return c
+def stepen(a,b):
+  c=a**b   
+  return c
+print('Резульат: ')
+if rr=='+':
+  print(plus(r,rrr))
+if rr=='-':
+  print(minus(r,rrr))
+if rr=='*':
+  print(multiplai(r,rrr))
+if rr=='/':
+  print(delenie(r,rrr))
+if rr=='^':
+  print(stepen(r,rrr))
