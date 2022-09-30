@@ -1,0 +1,7 @@
+P=int(input())
+Z=int(0)
+for x in range (P-1):
+  for y in range (P-1):
+    Z=((x+1)*(y+1)//P)*10+((x+1)*(y+1))%P
+    print(Z/3)
+  print()
