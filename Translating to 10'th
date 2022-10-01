@@ -6,4 +6,4 @@ while N10 != 0:
     Np = Np + (N10 % p) * k
     k = k * 10
     N10 = N10 // p
-print(Np)
+print(Np)                 #код рабочий, подтверждаю...
