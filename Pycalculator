@@ -33,3 +33,4 @@ if rr=='/':
   print(delenie(r,rrr))
 if rr=='^':
   print(stepen(r,rrr))
+print('добрый вечер')
