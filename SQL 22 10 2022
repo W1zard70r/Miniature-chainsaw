@@ -1,0 +1,10 @@
+# SELECT - ('столбцы или * для выбора всего')
+# FROM ('Таблица')
+# WHERE ('Условие')
+# GROUP BY ('Столбец по которому сгрупированны данные')
+# ORDER BY ('столбец, по которому сортируется выбор')
+
+# SELECT COUNT(*) FROM information_schema.tables WHERE table_schema = 'p518238_lyc'
+# SELECT * FROM information_schema.tables
+# SELECT * FROM grades WHERE  grades != ''
+# SELECT table_name from information_schema.table WHERE table_type = 'base_table'
