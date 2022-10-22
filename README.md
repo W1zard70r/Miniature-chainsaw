@@ -11,5 +11,7 @@
 # Морзянка.xlsx - Морзянка (python)
 # Система счисления.xlsx - перевод из N в 10 сс (exel)
 # Таблица истиности exel.xlsx - таблица с a,b ,1,0 (exel)
-# SQL 21 10 2022 - Команды , которые я вводил 
-# [ссылки на сайты](W1zard70r.github.io)
+# SQL 21 10 2022 - Команды , которые я водил 
+# codepen [click](https://codepen.io/W1zard70r)
+# openprocessing[click](https://openprocessing.org/user/344146/?view=activity&o=1)
+
