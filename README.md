@@ -1,4 +1,4 @@
-# Miniature-chainsaw
+# Miniature-chainsaw || Силков Александр 122гр
 # turtle - черепаха (python)
 # 1,2,3.png - работа с нейросимулятором 
 # Hamming's code.ipynb - Код Хэмминга (python)
