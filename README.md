@@ -1,6 +1,7 @@
 # Miniature-chainsaw || Силков Александр 122гр
 #
 #
+# proga.py - выражение с a ,b ,c == 0
 # turtle - черепаха (python)
 # 1,2,3.png - работа с нейросимулятором 
 # Hamming's code.ipynb - Код Хэмминга (python)
