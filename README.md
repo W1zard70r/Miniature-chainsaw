@@ -18,10 +18,5 @@
 # codepen [click](https://codepen.io/W1zard70r)
 # openprocessing[click](https://openprocessing.org/user/344146/?view=activity&o=1)
 # Формулы:
-# 
-$$ \cos(\alpha+\beta)=\cos\alpha\bullet \cos\beta-\sin\alpha\bullet \sin\beta $$ 
 
-$$ \sin(\alpha+\beta)=\sin\alpha\bullet \cos\beta+\cos\alpha\bullet \sin\beta $$
-
-$$ \tan\left( \alpha+\beta \right)=\frac{\tan\alpha+\tan\beta}{1-\tan\alpha\bullet\tan\beta } $$
-
+![lagrida_latex_editor (10)](https://user-images.githubusercontent.com/114387864/201263920-6c380fb4-ce32-4799-b499-1f2bd14c124d.png)
