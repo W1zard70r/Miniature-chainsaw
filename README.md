@@ -19,7 +19,7 @@
 # openprocessing[click](https://openprocessing.org/user/344146/?view=activity&o=1)
 # 
 $$ \cos(\alpha+\beta)=\cos\alpha\bullet \cos\beta-\sin\alpha\bullet \sin\beta $$ 
-
+#
 $$ \sin(\alpha+\beta)=\sin\alpha\bullet \cos\beta+\cos\alpha\bullet \sin\beta $$
-
+#
 $$ \tan\left( \alpha+\beta \right)=\frac{\tan\alpha+\tan\beta}{1-\tan\alpha\bullet\tan\beta } $$
