@@ -17,6 +17,7 @@
 # SQL 21 10 2022 - Команды , которые я водил 
 # codepen [click](https://codepen.io/W1zard70r)
 # openprocessing[click](https://openprocessing.org/user/344146/?view=activity&o=1)
+# BestVideo.py - видео с использованием moviepy и Pil
 # Формулы:
 
 $$ \cos(\alpha+\beta)=\cos\alpha\bullet \cos\beta-\sin\alpha\bullet \sin\beta $$
