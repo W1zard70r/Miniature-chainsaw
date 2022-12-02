@@ -30,7 +30,7 @@ $$ tan\left( \alpha+\beta \right)=\frac{\tan\alpha+\tan\beta}{1-\tan\alpha\bulle
 ```mermaid 
 flowchart LR
 
-A[10] -->| B(Round)
+A[10] --> B(Round)
 B --> C{атт}
 C -->|1| D[Найс Егэ]
 C -->|2| E[Армия]
