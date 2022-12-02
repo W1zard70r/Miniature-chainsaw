@@ -28,5 +28,4 @@ $$ tan\left( \alpha+\beta \right)=\frac{\tan\alpha+\tan\beta}{1-\tan\alpha\bulle
 
 ![lagrida_latex_editor (10)](https://user-images.githubusercontent.com/114387864/201263920-6c380fb4-ce32-4799-b499-1f2bd14c124d.png)
 ```mermaid flowchart LR
-    id
-```
+    id```
