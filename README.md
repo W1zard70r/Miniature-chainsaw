@@ -27,4 +27,12 @@ $$ \sin(\alpha+\beta)=\sin\alpha\bullet \cos\beta+\cos\alpha\bullet \sin\beta $$
 $$ tan\left( \alpha+\beta \right)=\frac{\tan\alpha+\tan\beta}{1-\tan\alpha\bullet\tan\beta } $$
 
 ![lagrida_latex_editor (10)](https://user-images.githubusercontent.com/114387864/201263920-6c380fb4-ce32-4799-b499-1f2bd14c124d.png)
-```mermaid flowchart LR id```
+```mermaid 
+flowchart LR 
+graph TD
+A[Christmas] -->|Get money| B(Go shopping)
+B --> C{Let me think}
+C -->|One| D[Laptop]
+C -->|Two| E[iPhone]
+C -->|Three| F[fa:fa-car Car]
+```
