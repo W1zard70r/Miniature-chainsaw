@@ -19,6 +19,7 @@
 # openprocessing[click](https://openprocessing.org/user/344146/?view=activity&o=1)
 # BestVideo.py - видео с использованием moviepy и Pil
 # victorina.py - викторина на питоне
+# goodviedo.py - слайдшоу на питоне
 # Формулы:
 
 $$ \cos(\alpha+\beta)=\cos\alpha\bullet \cos\beta-\sin\alpha\bullet \sin\beta $$
