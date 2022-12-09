@@ -20,6 +20,8 @@
 # BestVideo.py - видео с использованием moviepy и Pil
 # victorina.py - викторина на питоне
 # goodviedo.py - слайдшоу на питоне
+# smile.png - смайлик в inscape
+# NameGenerate.py - генератор имён (делал с Степановым Михаилом)
 # Формулы:
 
 $$ \cos(\alpha+\beta)=\cos\alpha\bullet \cos\beta-\sin\alpha\bullet \sin\beta $$
