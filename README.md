@@ -21,6 +21,7 @@
 # victorina.py - викторина на питоне
 # goodviedo.py - слайдшоу на питоне
 # smile.png - смайлик в inscape
+# vetka.png - ветка в inscape
 # wordformation2.exe - генератор имён (делал с Степановым Михаилом)
 # Формулы:
 
