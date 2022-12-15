@@ -22,6 +22,9 @@
 # goodviedo.py - слайдшоу на питоне
 # smile.png - смайлик в inscape
 # vetka.svg - ветка в inscape
+# midj1.jpg - фото из нейронки midjourney
+# midj2.jpg - фото из нейронки midjourney
+# midj3.jpg - фото из нейронки midjourney
 # wordformation2.exe - генератор имён (делал с Степановым Михаилом)
 # Формулы:
 
