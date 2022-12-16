@@ -25,6 +25,7 @@
 # midj1.jpg - фото из нейронки midjourney
 # midj2.jpg - фото из нейронки midjourney
 # midj3.webp - фото из нейронки midjourney
+# egenames - список с говорящими именами
 # wordformation2.exe - генератор имён (делал с Степановым Михаилом)
 # Формулы:
 
