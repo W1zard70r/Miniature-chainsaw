@@ -26,8 +26,8 @@
 # midj2.jpg - фото из нейронки midjourney
 # midj3.webp - фото из нейронки midjourney
 # egenames - список с говорящими именами
-# wordformation2.exe - генератор имён (делал с Степановым Михаилом)
-# MEGAPEREVOD.py
+# wordformation2.exe - генератор имён 
+# MEGAPEREVOD.py - файл-сборник
 # Формулы:
 
 $$ \cos(\alpha+\beta)=\cos\alpha\bullet \cos\beta-\sin\alpha\bullet \sin\beta $$
