@@ -3,14 +3,9 @@
 # proga.py - выражение с a ,b ,c == 0
 # turtle - черепаха (python)
 # 1,2,3.png - работа с нейросимулятором 
-# Hamming's code.ipynb - Код Хэмминга (python)
 # Multiplication exel.xlsx - Умножение (exel)
-# Pycalculator - калькулятор на с def (+, -, *, //, **)
-# Translating to 10'th - перевод числа любой сс в 10
+# Pycalculator - калькулятор с def (+, -, *, //, **)
 # bd.py - sql 
-# multiplication - умножение чисел одной сс (python)
-# perevod 10 to N - перевод из 10 в N сс (python)
-# Морзянка.xlsx - Морзянка (python)
 # Система счисления.xlsx - перевод из N в 10 сс (exel)
 # Таблица истиности exel.xlsx - таблица с a,b ,1,0 (exel)
 # SQL 21 10 2022 - Команды , которые я водил 
@@ -25,9 +20,9 @@
 # midj2.jpg - фото из нейронки midjourney
 # midj3.webp - фото из нейронки midjourney
 # egenames - список с говорящими именами
-# wordformation2.exe - генератор имён 
 # MEGAPEREVOD.py - файл-сборник
 # wordformation2.exe - прога с генератором имён
+# TWFcode.py - код проги с генератором имён
 # Формулы:
 
 $$ \cos(\alpha+\beta)=\cos\alpha\bullet \cos\beta-\sin\alpha\bullet \sin\beta $$
