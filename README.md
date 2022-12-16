@@ -27,6 +27,7 @@
 # egenames - список с говорящими именами
 # wordformation2.exe - генератор имён 
 # MEGAPEREVOD.py - файл-сборник
+# wordformation2.exe - прога с генератором имён
 # Формулы:
 
 $$ \cos(\alpha+\beta)=\cos\alpha\bullet \cos\beta-\sin\alpha\bullet \sin\beta $$
