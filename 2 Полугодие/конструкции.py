@@ -8,7 +8,7 @@ print(c)
 a=[1,2,3,4,5,7]
 c=list(map(lambda x: x*2,a))
 print(c)
-
+#lamba-функция и сортировка списка
 a=[1,2,3,4,5,7]
 b=['193','8','2','3','2','1']
 c=list(map(lambda x: int(x) if int(x)>2 else 0,b))
