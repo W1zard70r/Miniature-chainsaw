@@ -1,8 +1,19 @@
 import PySimpleGUI as sg
-
-sg.theme('LightBlue2')  # Set the theme
-s=['2','5','9','12','14','15','16','17','23','24','25','26','27b']
+import webbrowser
+sg.theme('LightBlue2')
+urls = {
+    'Google':'https://www.google.com',
+    'Amazon':'https://www.amazon.com/',
+    'NASA'  :'https://www.nasa.gov/',
+    'Python':'https://www.python.org/',
+        }  # Set the theme
+s=['1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19, 20, 21','22','23','24','25','26','27b']
 a=[
+'''
+1) определить точки, из которых выходят 3 линии
+2) поподставять эти точки и , определить длины линий между ними и увидеть точки соединённые двумя дорогами.
+3) поподставять и потом посчитать ответ
+''',
 '''
 for x in range(2):
     for y in range(2):
@@ -11,10 +22,62 @@ for x in range(2):
                 if (not(y<=x) or (z<=w) or not(z))==False:
                     print(x,y,z,w)''',
 '''
+1) используем фильтр (раздел данных)
+2) далее используем мозг и считаем ответ (иногда нужно скопировать таблицу по значениям и использовать функции)
+'''
+,'''
+1) расписать 2-ичное древо
+2) внести известные данные
+3) Соотнести количество вариантов с количеством символов, начиная с минимального кода. 
+''',
+'''
 a=bin(79)[2:]
 for i in range(2):
     a=a+str((a.count('1')%2))
-print(a)''',
+print(a)
+''',
+'''
+1) Вспомнить команды черепахи
+2) оранизовать алгортм задачи
+3) рисуем точки из начала координат с помощью goto()
+4) считаем точки
+
+from turtle import *
+left(90)
+for i in range(7):
+    forward(300)
+    right(120)
+pu()
+for x in range(1,9):
+    for y in range(1,10):
+        goto(x*30,y*30)
+        dot(2)
+done()
+''',
+'''
+1) Испольуем формулу V=M*i*t для звука
+t - время
+i - раширение
+m - частота дискретезации
+v - объем файла в битах
+''',
+'''
+count=0
+for a in range (1,8):
+    for b in range (8):
+        for c in range (8):
+            for d in range (8):
+                for e in range (8):
+                    s=str(a)+str(b)+str(c)+str(d)+str(e)
+                    if s.count('6')==1:
+                        if s.index('6')==len(s)-1 and int(s[len(s)-2])%2==0:
+                            count+=1
+                        if s.index('6')==0 and int(s[1])%2==0:
+                            count+=1
+                        if s.index('6')<len(s)-1 and s.index('6')>0 and int(s[s.index('6')-1])%2==0 and int(s[s.index('6')+1])%2==0:
+                            count+=1
+print(count)
+''',
 '''
 tt=\'''66;39;77;31;132;117\'''
 tt=t.split(';')
@@ -46,14 +109,29 @@ for i in range (6400):
     if sums>=(diff/4) and diff!=0 and sums!=0 and T:
       c+=1
 print(c)''',
-'''tt='8'*86
-while ('1111'in(tt) or '8888'in(tt)):
-    if '1111'in(tt):
-        tt = tt.replace('1111','8',1)
-    else:
-         tt = tt.replace('8888','11',1)
-    print(tt)
+'''
+1) открыть файл, нажать "Ctrl + f"
+2) выбрать параметры поиска: "учитывать регист" и "Только слово целиком"
+
+''','''11   
 ''',
+'''
+nums=[2,3,5,7]
+for i in range(8,1000):
+    flag=True
+    for b in range(len(nums)):
+        if i%nums[b] == 0:
+            flag=False
+    if flag:
+        nums.append(i)
+print(nums)
+for n in range(30):
+    for i in range(len(nums)):
+        if 4*n + 117 ==nums[i]:
+            print(n)''','''
+1) старт маркеруется 1
+2) анализируем пункты, в которые можно попасть по 1 дороге
+3) позже большие, но строго следовать маршруту''',
 '''
 al='0123456789abcde'
 for i in al:
@@ -61,7 +139,6 @@ for i in al:
     if s%14==0:
         print(int(str(s//14),10))
 ''','''
-
 for a in range(0,100):
     if all(((x%3==0) <= (x%5!=0)) or ((x+a)>=70) for x in range(1,10000)):
         print(a)
@@ -85,8 +162,19 @@ with open('17.txt')as f:
             cs.append(x**2+y**2)
     print(len(cs),max(cs))
             
-''',
+''','''
+1) левый верхний угол берём значение из 1 таблицы
+2) в ячейке справа складываем значение этой ячейки из таблицы 1 и значения 1 ячейки, аналогично для ячейки снизу
+3) далее используем макс()+зн этой ячейки из таблицы 1 (макс() для ячеек сверху с снизу относительно даной)
+4) за барьерами используем формулы сложения верхнего и данного значения , аналогично для горизонтального.
+''','''
+1) нарисовать двоичное дерево, начиная с победных ходов
+2) расписываем дерево на 4 и более хода
+3) считаем по усл задачи где чей ход extra (обычно ответ это число, которое можно получить только 1 способом)''','''
+1) каждому процессу присваиваем цвет
+2) закрашиваем клеточки в таблице относительно конца процесса
 '''
+,'''
 def f(x,y):
     if x>y or x==17:
          return 0
@@ -96,7 +184,6 @@ def f(x,y):
 print(f(1,10)*f(10,35))
     
 ''','''
-
 with open('24.txt') as f:
     s=f.readline().replace('C','S').replace('F','S').replace('D','S').replace('A','G').replace('O','G')
     s=s.replace("SG",'*')
@@ -124,7 +211,6 @@ with open('26.txt') as f:
             mini=s[i]
             k+=1
     print(k,mini)
-
 ''',
 '''with open('27-B.txt') as f:
     a=[int(x) for x in f]
@@ -147,10 +233,10 @@ with open('26.txt') as f:
 layout = [[sg.Combo(s, default_value=s[0], s=(15,22), enable_events=True, readonly=True, k='-COMBO-', key='Combo'),
           sg.Output(s=(90,50), key='outputt')],
           [sg.Button('Process Input', font=('Arial', 12), button_color=('white', '#4CAF50'), key='process'),
-           sg.Button('Someth', font=('Arial', 12), button_color=('white', '#4CAF50'), key='button')]]
+           sg.Button('urls', font=('Arial', 12), button_color=('white', '#4CAF50'), key='button')]]
 
 # Create the window
-window = sg.Window('ЕГЭ архив', layout)
+window = sg.Window('ЕГЭ архив by Silkov Alexandr', layout)
 
 # Event loop
 while True:
@@ -165,7 +251,29 @@ while True:
         choice=a[s.index(values['Combo'])]
         window['outputt'].update(choice)
     if event == 'button':
-        break
+       urls = {
+    'Google':'https://www.google.com',
+    'Amazon':'https://www.amazon.com/',
+    'NASA'  :'https://www.nasa.gov/',
+    'Python':'https://www.python.org/',
+}
 
+    items = sorted(urls.keys())
+
+    sg.theme("DarkBlue")
+    font = ('Courier New', 16, 'underline')
+
+    layout = [[sg.Text(txt, tooltip=urls[txt], enable_events=True, font=font,
+    key=f'URL {urls[txt]}')] for txt in items]
+    window = sg.Window('Hyperlink', layout, size=(250, 150), finalize=True)
+
+    while True:
+        event, values = window.read()
+        if event == sg.WINDOW_CLOSED:
+            break
+        elif event.startswith("URL "):
+            url = event.split(' ')[1]
+            webbrowser.open(url)
+        print(event, values)
 # Close the window
 window.close()
