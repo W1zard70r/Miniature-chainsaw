@@ -10,7 +10,8 @@ wm=0
 ways=list(product('0123456', repeat=7))
 for x in ways:
     w=0
-    if all(x.count(a)==1 for a in x):
+    #if all(x.count(a)==1 for a in x):
+    if len(set(x))==7:
         for n in range(len(x)-1):
             w+=m[int(x[n])][int(x[n+1])]
     if w>wm:
